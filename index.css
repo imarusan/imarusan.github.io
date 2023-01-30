@@ -8,10 +8,13 @@
 html {
   scroll-behavior: smooth;
 }
+.background{
+  background-color:#FDEFEF;
+}
 
 .navbar {
   padding: 3px;
-  background-color: #86A3B8;
+  background-color:#D7C0AE;
 }
 
 .navbar__logo {
@@ -39,22 +42,22 @@ html {
 
 .images__text{
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 800;
   position: absolute;
-  top:30%;
-  left:30%;
-  color:white;
+  top:33%;
+  left:10%;
+  color:black;
  text-shadow: 30px;
 }
 
 .images__text1{
   font-size: 1rem;
-  font-weight: 70;
+  font-weight: 700;
   position: absolute;
-  top:37%;
-  left:30%;
-  color:white;
- text-shadow: 30px;
+  top:40%;
+  left:10%;
+  color:black;
+ text-shadow: 30px; 
 }
 
 #about {
@@ -90,6 +93,8 @@ html {
 
 .about__text {
   text-align: justify;
+  margin-top: 5px;
+  margin-top: -5px;
 }
 
 .models__title {
@@ -100,7 +105,7 @@ html {
 }
 
 .models__subtext {
-  text-align: center;
+  text-align:center;
   margin-top: 20px;
   margin-top: -20px;
   text-shadow: 5px;
@@ -123,12 +128,16 @@ html {
 
 footer {
   text-align: center;
-  background-color: #86A3B8;
+  background-color:#D7C0AE;
   color:black;
-  padding: 2rem;
+  padding: 1rem;
 }
 
-
+@media screen and (max-width : 600px) {
+  .about__images{
+    display: none;
+  }
+}
 
 
 
